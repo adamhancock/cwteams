@@ -10,4 +10,4 @@
 
 - Create a new Integrator login
 - Select All Records
-- Set Service ticket callback url to https://<your function app name>.azurewebsites.net/api/CWIncoming.
+- Set Service ticket callback url to https:// your function app name.azurewebsites.net/api/CWIncoming.

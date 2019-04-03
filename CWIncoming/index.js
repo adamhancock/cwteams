@@ -12,6 +12,9 @@ module.exports = function(context, req) {
 	if (td.BoardName) {
 		axios.post(process.env[td.BoardName], teamsdata);
 	}
-
+	context.res = {
+		// status defaults to 200 */
+		body: 'Received'
+	};
 	context.done();
 };

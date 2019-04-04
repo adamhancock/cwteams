@@ -4,9 +4,6 @@ const duplicateCheck = require('../lib/duplicateCheck');
 module.exports = async function(context, req) {
 	var td = JSON.parse(req.body.Entity);
 	const body = req.body;
-	context.log(
-		`https://${body.FromUrl}/v4_6_release/services/system_io/Service/fv_sr100_request.rails?service_recid=${body.ID}&companyName=${body.CompanyId}`
-	);
 	var teamsdata = {
 		title: `Ticket #${td.Id} from ${td.ContactName} @ ${td.CompanyName}`,
 		text: `Summary: ${td.Summary} // BoardName: ${td.BoardName} // Status: ${td.StatusName}`,

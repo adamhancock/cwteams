@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "axios": "^0.18.0",
-    "diskdb": "^0.1.17"
+    "diskdb": "^0.1.17",
   },
   "devDependencies": {},
   "scripts": {

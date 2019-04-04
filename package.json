@@ -1,20 +1,20 @@
 {
-  "name": "cwteams",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "axios": "^0.18.0",
-    "diskdb": "^0.1.17",
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adamhancock/cwteams.git"
-  },
-  "author": "Adam Hancock",
-  "license": "ISC"
+	"name": "cwteams",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"axios": "^0.18.0",
+		"diskdb": "^0.1.17"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/adamhancock/cwteams.git"
+	},
+	"author": "Adam Hancock",
+	"license": "ISC"
 }
